@@ -68,7 +68,7 @@ namespace RenJiaoBookDownloader
 
                 var imgsData = await GetImageData(address + cfs[Cf_largePath], int.Parse(cfs[Cf_totalPageCount]), cfs[Cf_CreatedTime]);
 
-                string filesDir = Directory.CreateDirectory(Path.Combine(Environment.CurrentDirectory, $"files/")).FullName;
+                string filesDir = Directory.CreateDirectory(Path.Combine(Environment.CurrentDirectory, "files/")).FullName;
                 string savePath = Path.Combine(filesDir, $"{cfs[Cf_bookTitle]}.pdf");
 
                 await SavePdf(savePath, imgsData);
