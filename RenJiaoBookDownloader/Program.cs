@@ -154,7 +154,7 @@ namespace RenJiaoBookDownloader
                 Console.Write($"({i}/{pageCount})");
 
                 data.Add(await Http.GetByteArrayAsync($"{dirUrl}{i}.jpg?{createdTime}"));
-                await Task.Delay(100);
+                await Task.Delay(1000);
             }
 
             Console.WriteLine();
