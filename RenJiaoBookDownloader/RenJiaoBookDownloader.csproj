@@ -11,7 +11,7 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <None Include="../LICENSE">
+    <None Include="../LICENSE.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
