@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <ApplicationIcon>logo.ico</ApplicationIcon>
     <AssemblyTitle>人教书籍下载器</AssemblyTitle>
-    <AssemblyVersion>1.1.1</AssemblyVersion>
+    <AssemblyVersion>1.1.2</AssemblyVersion>
   </PropertyGroup>
   
   <ItemGroup>
